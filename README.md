@@ -70,7 +70,9 @@ $router->dispatch();
 
 Execute os testes com:
 
+```bash
 composer test
+```
 
 Os testes usam PHPUnit e estão localizados em tests/.
 
