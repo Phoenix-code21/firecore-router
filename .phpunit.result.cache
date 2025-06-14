@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Firecore\\Tests\\RouterTest::testRouteNotFound":4},"times":{"Firecore\\Tests\\RouterTest::testBasicGetRoute":0.034,"Firecore\\Tests\\RouterTest::testRouteWithParameter":0,"Firecore\\Tests\\RouterTest::testRouteGrouping":0,"Firecore\\Tests\\RouterTest::testMiddlewareExecution":0.016,"Firecore\\Tests\\RouterTest::testRouteNotFound":0.001}}

@@ -1,0 +1,33 @@
+{
+  "name": "phoenix-code21/firecore-router",
+  "description": "Um roteador PHP leve e moderno para aplicações web.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Soares",
+      "homepage": "https://github.com/Phoenix-code21"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Firecore\\Router\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Firecore\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
