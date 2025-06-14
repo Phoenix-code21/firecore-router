@@ -8,9 +8,11 @@ Você pode instalar via [Composer](https://getcomposer.org):
 
 ```bash
 composer require phoenix-code21/firecore-router
+```
 
 🚀 Exemplo de uso
 
+```bash
 use Firecore\Router\Router;
 
 $router = new Router;
@@ -47,6 +49,8 @@ $router->setError('/erro', 404, function () {
 
 // Executa o roteador
 $router->dispatch();
+
+```
 
 ⚙️ Recursos
 
